@@ -62,8 +62,8 @@ d3.json(geoData, function(data) {
     // Add min & max
     var legendInfo = "<h1>Earliest to Latest</h1>" +
       "<div class=\"labels\">" +
-        "<div class=\"min\">" + limits[0] + "</div>" +
-        "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +
+        "<div class=\"min\">" + "1784" + "</div>" +
+        "<div class=\"max\">" + "1886" + "</div>" +
       "</div>";
 
     div.innerHTML = legendInfo;
