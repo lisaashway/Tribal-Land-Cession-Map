@@ -58,7 +58,7 @@ d3.json(geoData, function(data) {
     var limits = geojson.options.limits;
     var colors = geojson.options.colors;
     var labels = [];
-
+    console.log(limits)
     // Add min & max
     var legendInfo = "<h1>Earliest to Latest</h1>" +
       "<div class=\"labels\">" +
