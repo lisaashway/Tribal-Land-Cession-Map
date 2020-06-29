@@ -30,7 +30,7 @@ d3.json(geoData, function(data) {
     valueProperty: "TribalCededLandsTableCessNum",
 
     // color scale
-    scale: ["#F333FF", "#33FFFC"],
+    scale: ["#33FFFC","#F333FF"],
 
     // number of breaks in color scale
     steps: 10,
