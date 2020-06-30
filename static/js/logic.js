@@ -33,7 +33,7 @@ d3.json(geoData, function(data) {
     scale: ["#33FFFC","#F333FF"],
 
     // number of breaks in color scale
-    steps: 10,
+    steps: 15,
 
     // q for quartile, e for equidistant, k for k-means
     mode: "q",
@@ -58,12 +58,11 @@ d3.json(geoData, function(data) {
     var limits = geojson.options.limits;
     var colors = geojson.options.colors;
     var labels = [];
-    console.log(limits)
     // Add min & max
     var legendInfo = "<h1>Earliest to Latest</h1>" +
       "<div class=\"labels\">" +
         "<div class=\"min\">" + "1784" + "</div>" +
-        "<div class=\"max\">" + "1886" + "</div>" +
+        "<div class=\"max\">" + "1891" + "</div>" +
       "</div>";
 
     div.innerHTML = legendInfo;
