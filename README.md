@@ -1,4 +1,4 @@
-# Tribal_Land_Cession_Map
+# Tribal-Land-Cession-Map
 
 This simple visualization uses a Geojson to display the cession of land from Native Tribes to United States over time. It can be found here!
 
